@@ -1,4 +1,4 @@
-const API = "https://todo-cyy0.onrender.com";
+const API = "https://todo-cyy0.onrender.com/api/todos";
 
 export const fetchTodos = async () => {
   const res = await fetch(API);
